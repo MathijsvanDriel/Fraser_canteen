@@ -19,6 +19,8 @@ if ans.lower() == 'yes' or ans.lower() == "y" :
   print("We sell pies and burgers at the Fraser High canteen!") 
 else: 
     print("Have a nice day, see you next time!")  
+    time.sleep(3)
+    
     exit()
 buy = input ("Would you like a pie for $4.50, or a burger for $7.89, " + n + "?"'\n')
 time.sleep(1.5) 
